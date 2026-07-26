@@ -51,3 +51,4 @@ Pastikan konfigurasi berikut diatur:
 ## User Roles
 - **Admin:** Akses penuh ke `/admin` untuk manajemen produk, pesanan, dan laporan.
 - **Customer:** Akses ke katalog menu, keranjang, checkout, dan riwayat pesanan pribadi.
+"# warung-pak-do" 
