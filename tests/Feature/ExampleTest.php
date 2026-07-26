@@ -17,6 +17,6 @@ class ExampleTest extends TestCase
         $response = $this->get('/');
 
         $response->assertOk();
-        $response->assertSee('Dashboard Warung Pak Do');
+        $response->assertSee('Hangat, cepat, dan siap dipesan dari browser.');
     }
 }

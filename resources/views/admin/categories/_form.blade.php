@@ -1,0 +1,3 @@
+<div><label class="mb-2 block text-sm font-semibold">Nama</label><input name="name" value="{{ old('name', $category->name) }}" required class="w-full rounded-2xl border-slate-200 px-4 py-3">@error('name')<p class="mt-1 text-sm text-rose-600">{{ $message }}</p>@enderror</div>
+<div><label class="mb-2 block text-sm font-semibold">Deskripsi</label><textarea name="description" rows="4" class="w-full rounded-2xl border-slate-200 px-4 py-3">{{ old('description', $category->description) }}</textarea></div>
+<div><label class="mb-2 block text-sm font-semibold">Urutan</label><input type="number" name="sort_order" min="0" value="{{ old('sort_order', $category->sort_order) }}" class="w-full rounded-2xl border-slate-200 px-4 py-3"></div>
